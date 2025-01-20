@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  footer {
+    background-color: #343a40;
+    color: white;
+  }
+  
+  footer a {
+    color: #17a2b8;
+  }
+  
+  .card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .card:hover {
+    transform: scale(1.02);
+    transition: transform 0.2s;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .btn-purple {
+    background-color: #6f42c1;
+    color: white;
+  }
+  
+  .btn-purple:hover {
+    background-color: #5a32a3;
+  }
+  
